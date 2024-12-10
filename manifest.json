@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Game library",
+  "version": "1.0",
+  "description": "A set of browser games make with canvas",
+  "content_scripts": [{ "matches": ["<all_urls>"], "js": ["gameLibrary.js"] }],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "border-48.png"
+  }
+}
