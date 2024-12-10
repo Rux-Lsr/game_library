@@ -1,2 +1,3 @@
 # game_library
-extension that include games
+
+extension that include games for browsers
